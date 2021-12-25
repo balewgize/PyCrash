@@ -9,7 +9,7 @@ class Antivirus:
 	attribute: current_path - a path where the antivirus scans by default
 	(the current path where this filename is residing)
 	"""
-	current = os.path.dirname(__file__)
+	current = os.path.abspath(os.path.dirname(__file__))
 
 	def __init__(self, path=current):
 		self.current_path = path

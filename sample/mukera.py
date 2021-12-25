@@ -1,6 +1,5 @@
 
 
-
 def xor(m, n):
 	result = ''
 	for x,y in zip(m, n):
