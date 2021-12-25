@@ -1,0 +1,16 @@
+PyCrash
+NAME = "PyCrash"
+os.path.isdir
+os.listdir
+import PyPDF2
+from PyPDF2 import PdfFileReader, PdfFileWriter
+PyPDF2.PdfFileWriter
+PyPDf2.PdfFileReader
+PdfFileWriter()
+PdfFileReader(open("watermark.pdf", 'rb')
+mergePage
+addPage
+getPage
+add_watermark
+search_pdf
+search_py

