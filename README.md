@@ -24,9 +24,9 @@
 - It may infect your python installation files. If it happens, at least you will need to re-install Python again
   (My virus is kind, it will not cause much damage)
 
-## Don't worry too much, there must be a solution
+No worry. There is antivirus also.
 
-# Aflem Antivirus
+# Aflem Antivirus 
 
 - I also create an antivirus for it. I don't want to be
   danger to the world but I want to rescue.
