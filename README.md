@@ -1,35 +1,35 @@
-# PyCrash - simple Python Virus
+# PyCrash (I named it so 😄) - simple Python Virus
 
-- PyCrash is a simple virus written in Python that damage PDF files permanently
-  by adding watermark to them.
+🔥🔥 PyCrash is a simple virus written in Python that damage PDF files permanently
+  by adding watermark to them.🔥🔥
 
-- The virus can spread itself by injecting the virus code into .py files that
-  found in the current directory where the virus resides.
+🔥🔥 The virus can spread itself by injecting the virus code into .py files that
+  found in the current directory where the virus resides.🔥🔥
 
-- The virus is somewhat intelligent, it infects a file only once i.e while the virus
+🔥🔥 The virus is somewhat intelligent, it infects a file only once i.e while the virus
   is spreading itself by injecting the code into other .py files, if the file is already
-  infected by the virus, it will not infect it again.
+  infected by the virus, it will not infect it again.🔥🔥
 
-- Infected python files contain the virus code besides their original source code so when
-  they get executed, they act as a virus and infect other python files that reside in the
+🔥🔥 Infected python files contain the virus code besides their original source code so when
+  they get executed, they carry the virus and infect other python files that reside in the
   same directory as that of the current python file....and so on ... this process continues
-  and nearly all python files of a user will be infected by the virus. Be careful :)
+  and nearly all python files of a user will be infected by the virus. Be careful!! 🔥🔥
 
-## Caution !!!
+
+## 🔥🔥🔥 Caution !!! 🔥🔥🔥
 
 - Be careful about the PDF files, the damage is irreversible.
 
 - Don't put the virus near your Python installation directory or any virtual environments.
 
-- It may infect your python installation files. If it happens, at least you will need to re-install Python again
-  (My virus is kind, it will not cause much damage)
+- It may infect your python installation files. (If it happens, at least you will need to re-install Python again)
 
-No worry. There is antivirus also.
+
+But don't worry. There is an Antivirus also.
 
 # Aflem Antivirus 
 
-- I also create an antivirus for it. I don't want to be
-  danger to the world but I want to rescue.
+- I also create an antivirus for it. I don't want to be danger to the world but I want to rescue.
 
 - The antivirus works based on signature. It looks for siganture of the virus
   on Python files. If the signature is found above some threshold level, it suspect
